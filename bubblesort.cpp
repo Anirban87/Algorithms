@@ -16,7 +16,7 @@ int main()
   //bubble sort logic
   for(int j=0 ; j<n ; j++)
   {
-      for(int k=0 ; k<n-1 ; k++)      //liner search and swap the elements
+      for(int k=0 ; k<n-j-1 ; k++)      //liner search and swap the elements
       {
           if(A[k] > A[k+1])
           {
